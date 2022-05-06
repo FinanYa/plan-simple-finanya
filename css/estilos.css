@@ -45,9 +45,9 @@ body {
     
 }
 
+                                                                                                                
 
-
-@media (min-width: 400px){
+@media (min-width: 320px){
     .logo {
         width: 40%;
         height: auto;
@@ -63,7 +63,7 @@ body {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 0.3rem;
+    margin-top: 0.3rem;                                                 
     color: var(--ok);
 }
 
@@ -162,7 +162,7 @@ strong {
     letter-spacing: 0rem;
     word-spacing: 0;
     text-transform: none;
-    text-indent: 0rem;
+    text-indent: 0rem;                                                                                                                                                                                                                                                                                                          
     text-shadow: none;
     display: inline-block;
     text-align: center;
@@ -177,3 +177,4 @@ strong {
     border-style: solid;
     border-color: var(--gris);
 }
+                                                                                                                                                                                    
