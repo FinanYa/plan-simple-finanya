@@ -1,0 +1,179 @@
+
+:root {
+    --gris:#a8a9b3; 
+    --blanco:#fff;
+    --azul:rgb(16, 5, 73);
+    --ok: rgb(29, 82, 9); 
+    --secundsario: #f3f3f3;
+    --fuente-principal:'Questrial', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:var(--fuente-principal);
+    background-color: var(--blanco);
+}
+
+.header {
+    margin: 2.5rem auto;
+    
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+}
+
+.contenedor {
+    margin: 1rem 2rem;
+}
+
+.sombra {
+
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(140,140,140,0.92);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(140,140,140,0.92);
+    box-shadow: 0px 5px 15px 0px rgba(140,140,140,0.92); /*ver https://www.cssmatic.com/box-shadow */
+    background-color: var(--blanco);
+    padding: 0.5rem; /*un solo valor para las 4 dimensiones*/
+    border-radius: 0rem; /*esquina redondeada*/
+    
+}
+
+
+
+@media (max-width: 400px){
+    .logo {
+        width: 40%;
+        height: auto;
+    }
+
+    .titulo_principal {
+        font-size: 1rem;
+    }
+}
+
+
+.titulo_principal {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0.3rem;
+    color: var(--ok);
+}
+
+.textos, .textos2 {
+    text-align: center;
+    
+}
+
+.textos {
+    margin-bottom: 0.3rem;
+}
+
+.textos2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--azul);
+    color: var(--blanco);
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+strong {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--azul);
+   
+}
+
+.textos3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--azul);
+    text-align: center;
+   
+}
+
+.bordes {
+    border: solid var(--azul) 0.1rem;
+    padding: 1rem;
+}
+
+.bordes1 {
+    border: solid var(--ok) 0.1rem;
+    padding: 1rem;
+}
+
+.textos4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.textos5{
+    margin: 0.3rem;
+    text-align: center;
+}
+
+.textos6 {
+    font-weight: bold;
+    text-transform:uppercase    ;
+    text-align: center;
+    color: var(--ok);
+    font-size: 1.5rem;
+}
+
+@media (max-width: 400px) {
+    .textos6 {
+        font-size: 1.3rem;
+    }
+}
+
+.textos7 {
+    text-align: center;
+    margin: 1rem;
+    color: var(--azul);
+
+}
+
+.textos8 {
+    text-align: center;
+    
+  
+}
+
+@media (min-width: 800px) {
+    .textos2, .bordes, .bordes1{
+        margin: 1rem 10rem;
+    }
+    
+}
+
+.selector {
+    color: var(--azul);
+    padding: 1rem;
+    letter-spacing: 0rem;
+    word-spacing: 0;
+    text-transform: none;
+    text-indent: 0rem;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    box-sizing: border-box;
+    background-color: var(--blanco);
+    cursor:auto;
+    margin: 0;
+    font: var(--fuente-principal);
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--gris);
+}
